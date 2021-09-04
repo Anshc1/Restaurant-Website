@@ -1,0 +1,18 @@
+#main{
+    display : flex ;
+    color : white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 800px;
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+}
+.huh{
+    align-items: center;
+    padding-left: 39px;
+    padding-bottom: 276px;
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding :0;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+}
+#navbar{
+    background-color: red;
+    padding: 20px;
+}
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0 17px;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1px;
+}
+#logo img{
+    padding-bottom: 1px;
+    height: 56px;
+}
+#logo :hover{
+    height: 56px;
+    filter: invert(1);
+}
+
+#navbar u1{
+    display : flex; 
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar li a{
+    color: black;
+   text-decoration: none;
+   padding: 7px 30px;
+
+}
+#navbar li  :hover{
+    color:white;
+
+}
+#dog{
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    background-color: black;
+    padding-bottom: 30px;
+}
+#introsection{
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    font-size: 33px;
+    background: center / cover no-repeat url(jumbo.jpg);
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    
+}
+#dog div.small{
+    font-size: 25px;
+    padding: 3px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 32px;
+    background-color: red;
+    border:solid white;
+    border-radius: 63px;
+    color: black;
+    width: 463px;
+    height: 72px;
+    font-size: 35px;
+    
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover a{
+    text-decoration: none;
+    color: white;
+}
+#menucard{
+    display: flex;
+    background: center / cover no-repeat url(menucard.webp);
+    height: 1280px;
+
+}
+
+.button:hover{
+    background-color: black;
+    color:white;
+
+}
+
+.card{
+    width: 20%;
+    margin: 125px;
+    height: 249px;
+    padding: 9px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.card img {
+    border: 1px solid;
+    border-color: white;
+    display: flex;
+    width: 356px;
+    height: 231px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height  : 394px;
+    background-color:black;
+
+    padding-bottom: 30px;
+}
+#footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height  : 300px;
+    background-color:black;
+}
+.foot{
+    display: inline-block;
+    width: 20%;
+    margin: 125px;
+    height: 249px;
+    padding: 9px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.foot h1{
+    padding-left: 13px;
+}
+#line{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    padding-top: 1px
+}
+#el{
+    padding: 16px;
+    font-size: 15px;
+}
+#ending{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding-top: 22px;
+}
+.btm a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.btm{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+

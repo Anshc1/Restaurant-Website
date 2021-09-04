@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts
+    script(src="app1.js") 
+block style 
+    style  
+        include style.css
+        include ordermenu.css
+
+block content
+  div#jumbo
+    h1 Order Now 
+    form(action="/order", method="post", class ="myform")
+        input(type="text", class = "myinput",name = "name", placeholder="  Enter Your Name")
+        input(type="text", class = "myinput",name=  "phone", placeholder="  Enter Your Phone Number")
+        input(type="text", class = "myinput",name=  "address", placeholder="  Enter Your Address")
+        select(name='fooditems',class="myinputoptions")
+            option(value='None') -Select the food you want
+            option(value='Noodles') -Noodles
+            option(value='Maggi') -Maggi
+            option(value='Spring Rolls') -Spring Rolls
+            option(value='Pasta') -Pasta
+        select(name='quantity',class="myinputoptions")
+            option(value='0') -Select the quantity
+            option(value='1') -1
+            option(value='2') -2
+            option(value='3') -3
+            option(value='4') -4
+
+        button(class="btn")
+              |Confirm Order 

@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: white;
+
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#jumbo{
+    text-align: center;
+    color: white;
+    background: center / cover no-repeat url(orderjumbo.jpg);
+    padding-top: 99px;
+    padding-bottom: 27px;
+    font-size: 68px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 18px;
+}
+.myinput{
+    width: 50%;
+    height: 78px;
+    border-radius: 18px;
+    font-size: 20px;
+    margin: 5px;
+    outline: none;
+}
+.myinputoptions{
+    width: 50%;
+    height: 78px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+    outline: none;
+    color: #757779
+}
+.btn{
+    height: 47px;
+    margin: 30px;
+    width: 236px;
+    font-size: 28px;
+    border: white;
+    
+}
